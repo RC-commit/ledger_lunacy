@@ -1,0 +1,22 @@
+﻿Write notes about your proposal for Mission 2 here.
+
+
+I created wireframes & that can be found in the Mockups folder.
+
+
+Functionality: Core functionality of a bank account is to deposit, withdraw/transfer money. 
+
+
+So, it should be available at the top of the page on the account screen.
+
+
+Since the action buttons for depositing, withdrawing/transfering money will be at the top of the page, users will be easily able to find out.
+
+
+Deposit:- To deposit money one can add bank account details through which they can add money from another bank.
+
+
+Withdrawals/Transfer :- To withdraw/transfer one need to again add the bank account details of the sender and the receiver.
+
+
+Security concerns: We can store the account number in encrypted format to avoid a certain level of security threat and by introducing 1 level of validation/authorization will reduce the risk.

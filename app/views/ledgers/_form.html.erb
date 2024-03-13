@@ -1,0 +1,17 @@
+<%= form_with(model: ledger) do |form| %>
+  <% if ledger.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ledger.errors.count, "error") %> prohibited this ledger from being saved:</h2>
+
+      <ul>
+        <% ledger.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

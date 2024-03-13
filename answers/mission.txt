@@ -1,0 +1,23 @@
+﻿Write notes about how you would debug here. 3_1.txt
+
+GATHERING KEY INFORMATION
+Before I start my investigation, I want to get more information from the customer about the issue he faced because the initial email doesn’t have key details. I would first respond to Dr. Horrible and let him know that I am sorry for this inconvenience, and that the issue is being investigated. 
+
+
+In the same email, I would ask for some more information that would help me in the process of figuring out what happened to the missing transaction. 
+I will ask about 
+    - What was the amount that was wired?
+    - Date of this transaction?
+    - Did he face the issue once or multiple times and when.
+
+
+Now when I have more information, 
+I will try to check whether we have similar missing transactions for other customers 
+Does he have enough balance available in the account to process this transaction?
+
+
+I will forward this to the back end team with all the details to investigate this issue. I will ask them to check the logs first whether we have anything related to this transaction, if we have nothing then It can be human error, but if we have then I would ask them to find the root cause, by reproducing a similar scenario and try to execute the transaction.
+
+I would also ask them to check whether the transaction exists in the database, if exists then why it is not showing up on the UI and if not then what was the breaking point.
+
+By this way I would start the investigation.

@@ -1,0 +1,25 @@
+﻿Write your email to Dr. Horrible here.
+
+
+Subject: Missing wired money for Startup X
+
+
+Dear Dr. V. Horrible,
+
+
+After examining the problem you encountered while depositing $10,000 into Startup X's account, we discovered that our system encountered an error and improperly filtered out the transaction. Due to the delay, we assumed that your funds were not being wired. Startup X has now closed the deal without your investment.
+
+
+I would like to apologize that you missed out on the investment deal. We take full responsibility and aim to prevent these types of situations. We have made a decision to add $100 to the original amount that will be credited back to your account to compensate for your inconvenience. It will take 3-4 business days for this to be reflected in your account.
+
+
+You can reply to this email in case of any queries.
+
+
+Sincerely,
+Rishabh Chaturvedi
+
+
+
+Note:
+    - Considering I am allowed to compensate for a certain amount in case of failure/issue.

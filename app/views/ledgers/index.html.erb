@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<div class="content">
+  <h2 class="title black">Investing Account</h2>
+  <div class="balance black">
+    <div><b>$<%= @ledgers[0]["balance"] %></b></div>
+    <div class="balance-title">BALANCE<br></div>
+  </div>
+  <div class="table-title">Past Transactions</div>
+  <table>
+    <thead>
+      <tr class="grey">
+        <th>Date</th>
+        <th>Transaction</th>
+        <th>Description</th>
+        <th>Amount</th>
+        <th>Balance</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @ledgers.each do |ledger| %>
+        <tr class="grey">
+          <td><%= ledger["formatted_date"] %></td>
+          <td class="black"><%= ledger["type"] %></td>
+          <td><%= ledger["formatted_description"] %></td>
+          <td class="black"><%= ledger["amount"] %></td>
+          <td class="black">$<%= ledger["balance"] %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<br>
